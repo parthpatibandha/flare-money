@@ -1,0 +1,25 @@
+{
+    "name": "@example/blog",
+    "type": "module",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "dev": "astro dev",
+        "build": "astro build",
+        "preview": "astro preview",
+        "astro": "astro"
+    },
+    "dependencies": {
+        "@astrojs/mdx": "^4.0.7",
+        "@astrojs/react": "^4.1.6",
+        "@astrojs/rss": "^4.0.11",
+        "@astrojs/sitemap": "^3.2.1",
+        "@types/react": "^19.0.8",
+        "@types/react-dom": "^19.0.3",
+        "astro": "^5.1.9",
+        "recharts": "^2.15.2",
+        "semantic-ui-css": "^2.5.0",
+        "semantic-ui-react": "^2.1.5"
+    },
+    "proxy": "http://127.0.0.1:5000"
+}
